@@ -1,0 +1,23 @@
+{
+	"name": "webchimp/dabbie",
+	"description": "Simple database connection",
+	"version": "1.0",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Rodrigo Tejero",
+			"email": "rodrigo.tejero@chimp.mx",
+			"hompeage": "https://chimp.mx"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Dabbie\\": "src/"
+		}
+	},
+	"minimum-stability": "beta",
+	"require": {
+		"php": ">=5.6"
+	}
+}
