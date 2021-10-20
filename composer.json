@@ -1,7 +1,7 @@
 {
 	"name": "webchimp/dabbie",
 	"description": "Simple database connection",
-	"version": "1.0",
+	"version": "1.0-beta",
 	"type": "library",
 	"license": "MIT",
 	"authors": [
@@ -11,11 +11,13 @@
 			"hompeage": "https://chimp.mx"
 		}
 	],
+	"require": {
+		"ext-pdo": "*",
+		"ext-pdo_mysql": "*"
+	},
 	"autoload": {
 		"psr-4": {
-			"Dabbie\\": "src/",
-			"ext-pdo": "*",
-			"ext-pdo_mysql": "*"
+			"Dabbie\\": "src/"
 		}
 	},
 	"minimum-stability": "stable",
