@@ -16,7 +16,7 @@
 			"Dabbie\\": "src/"
 		}
 	},
-	"minimum-stability": "beta",
+	"minimum-stability": "stable",
 	"require": {
 		"php": ">=5.6"
 	}
